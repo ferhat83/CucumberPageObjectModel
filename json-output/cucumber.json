@@ -1,0 +1,696 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Negative login test with invalid email format and invalid password",
+        "description": "",
+        "id": "walmart-login-feature;negative-login-test-with-invalid-email-format-and-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 171072302,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to walmart application",
+            "match": {
+              "location": "Login.user_navigates_to_walmart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10132565,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.walmart.stepDef.Login.page_title_is(Login.java:27)\r\n\tat ✽.When page title is \"Walmart.com | Save Money. Live Better.\"(resources/features/Login.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "page title is \"Walmart.com | Save Money. Live Better.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Walmart.com | Save Money. Live Better.",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.page_title_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on account",
+            "match": {
+              "location": "Login.user_clicks_on_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on sign in",
+            "match": {
+              "location": "Login.user_clicks_on_sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is landed to login page \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 30
+                }
+              ],
+              "location": "Login.user_is_landed_to_login_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters username \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on login btn",
+            "match": {
+              "location": "Login.user_clicks_on_login_btn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user should see \"Email address is required.\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email address is required.",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.user_should_see_in_username_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "use should see \"Password is required.\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.use_should_see_in_password_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Negative login test with invalid email format and invalid password",
+        "description": "",
+        "id": "walmart-login-feature;negative-login-test-with-invalid-email-format-and-invalid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 110522,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to walmart application",
+            "match": {
+              "location": "Login.user_navigates_to_walmart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313575,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.walmart.stepDef.Login.page_title_is(Login.java:27)\r\n\tat ✽.When page title is \"Walmart.com | Save Money. Live Better.\"(resources/features/Login.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "page title is \"Walmart.com | Save Money. Live Better.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Walmart.com | Save Money. Live Better.",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.page_title_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on account",
+            "match": {
+              "location": "Login.user_clicks_on_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on sign in",
+            "match": {
+              "location": "Login.user_clicks_on_sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is landed to login page \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 30
+                }
+              ],
+              "location": "Login.user_is_landed_to_login_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters username \"xxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxx",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on login btn",
+            "match": {
+              "location": "Login.user_clicks_on_login_btn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user should see \"Please enter a valid email address.\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter a valid email address.",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.user_should_see_in_username_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "use should see \"Password is required.\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.use_should_see_in_password_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Negative login test with invalid email format and invalid password",
+        "description": "",
+        "id": "walmart-login-feature;negative-login-test-with-invalid-email-format-and-invalid-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 92531,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to walmart application",
+            "match": {
+              "location": "Login.user_navigates_to_walmart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1596146,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.walmart.stepDef.Login.page_title_is(Login.java:27)\r\n\tat ✽.When page title is \"Walmart.com | Save Money. Live Better.\"(resources/features/Login.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "page title is \"Walmart.com | Save Money. Live Better.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Walmart.com | Save Money. Live Better.",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.page_title_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on account",
+            "match": {
+              "location": "Login.user_clicks_on_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on sign in",
+            "match": {
+              "location": "Login.user_clicks_on_sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is landed to login page \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 30
+                }
+              ],
+              "location": "Login.user_is_landed_to_login_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters username \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters password \"xxxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxx",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on login btn",
+            "match": {
+              "location": "Login.user_clicks_on_login_btn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user should see \"Email address is required.\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email address is required.",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.user_should_see_in_username_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "use should see \"\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.use_should_see_in_password_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Negative login test with invalid email format and invalid password",
+        "description": "",
+        "id": "walmart-login-feature;negative-login-test-with-invalid-email-format-and-invalid-password;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88932,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to walmart application",
+            "match": {
+              "location": "Login.user_navigates_to_walmart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 644626,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.walmart.stepDef.Login.page_title_is(Login.java:27)\r\n\tat ✽.When page title is \"Walmart.com | Save Money. Live Better.\"(resources/features/Login.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "page title is \"Walmart.com | Save Money. Live Better.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Walmart.com | Save Money. Live Better.",
+                  "offset": 15
+                }
+              ],
+              "location": "Login.page_title_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks on account",
+            "match": {
+              "location": "Login.user_clicks_on_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on sign in",
+            "match": {
+              "location": "Login.user_clicks_on_sign_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is landed to login page \"Login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 30
+                }
+              ],
+              "location": "Login.user_is_landed_to_login_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user enters username \"xxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxx",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters password \"xxxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxx",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on login btn",
+            "match": {
+              "location": "Login.user_clicks_on_login_btn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user should see \"Please enter a valid email address.\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please enter a valid email address.",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.user_should_see_in_username_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "use should see \"\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 16
+                }
+              ],
+              "location": "Login.use_should_see_in_password_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Walmart login feature",
+    "description": "",
+    "id": "walmart-login-feature",
+    "keyword": "Feature",
+    "uri": "resources/features/Login.feature"
+  }
+]
