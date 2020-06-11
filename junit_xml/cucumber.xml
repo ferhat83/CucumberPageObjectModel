@@ -1,75 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.184052">
-<testcase classname="Walmart login feature" name="Negative login test with invalid email format and invalid password" time="0.181205">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.walmart.stepDef.Login.page_title_is(Login.java:27)&#13;&#10;&#9;at ✽.When page title is &quot;Walmart.com | Save Money. Live Better.&quot;(resources/features/Login.feature:5)&#13;&#10;"><![CDATA[Given user navigates to walmart application.................................passed
-When page title is "Walmart.com | Save Money. Live Better.".................failed
-Then user clicks on account.................................................skipped
-Then user clicks on sign in.................................................skipped
-Then user is landed to login page "Login"...................................skipped
-Then user enters username ""................................................skipped
-Then user enters password ""................................................skipped
-Then user clicks on login btn...............................................skipped
-Then user should see "Email address is required." in username field.........skipped
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.603429">
+<testcase classname="Walmart login feature" name="Negative login test with invalid email format and invalid password" time="23.603429">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at com.walmart.stepDef.Login.user_should_see_in_username_field(Login.java:70)&#13;&#10;&#9;at ✽.Then user should see &quot;Email address is required.&quot; in username field(resources/features/Login.feature:12)&#13;&#10;"><![CDATA[Given user navigates to walmart application.................................passed
+When page title is "Walmart.com | Save Money. Live Better.".................passed
+Then user clicks on account.................................................passed
+Then user clicks on sign in.................................................passed
+Then user is landed to login page "Login"...................................passed
+Then user enters username ""................................................passed
+Then user enters password ""................................................passed
+Then user clicks on login btn...............................................passed
+Then user should see "Email address is required." in username field.........failed
 And use should see "Password is required." in password field................skipped
 
 StackTrace:
-java.lang.NullPointerException
-	at com.walmart.stepDef.Login.page_title_is(Login.java:27)
-	at ✽.When page title is "Walmart.com | Save Money. Live Better."(resources/features/Login.feature:5)
-]]></failure>
-</testcase>
-<testcase classname="Walmart login feature" name="Negative login test with invalid email format and invalid password 2" time="0.000424">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.walmart.stepDef.Login.page_title_is(Login.java:27)&#13;&#10;&#9;at ✽.When page title is &quot;Walmart.com | Save Money. Live Better.&quot;(resources/features/Login.feature:5)&#13;&#10;"><![CDATA[Given user navigates to walmart application.................................passed
-When page title is "Walmart.com | Save Money. Live Better.".................failed
-Then user clicks on account.................................................skipped
-Then user clicks on sign in.................................................skipped
-Then user is landed to login page "Login"...................................skipped
-Then user enters username "xxxxx"...........................................skipped
-Then user enters password ""................................................skipped
-Then user clicks on login btn...............................................skipped
-Then user should see "Please enter a valid email address." in username field.skipped
-And use should see "Password is required." in password field................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at com.walmart.stepDef.Login.page_title_is(Login.java:27)
-	at ✽.When page title is "Walmart.com | Save Money. Live Better."(resources/features/Login.feature:5)
-]]></failure>
-</testcase>
-<testcase classname="Walmart login feature" name="Negative login test with invalid email format and invalid password 3" time="0.001689">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.walmart.stepDef.Login.page_title_is(Login.java:27)&#13;&#10;&#9;at ✽.When page title is &quot;Walmart.com | Save Money. Live Better.&quot;(resources/features/Login.feature:5)&#13;&#10;"><![CDATA[Given user navigates to walmart application.................................passed
-When page title is "Walmart.com | Save Money. Live Better.".................failed
-Then user clicks on account.................................................skipped
-Then user clicks on sign in.................................................skipped
-Then user is landed to login page "Login"...................................skipped
-Then user enters username ""................................................skipped
-Then user enters password "xxxxxxxx"........................................skipped
-Then user clicks on login btn...............................................skipped
-Then user should see "Email address is required." in username field.........skipped
-And use should see "" in password field.....................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at com.walmart.stepDef.Login.page_title_is(Login.java:27)
-	at ✽.When page title is "Walmart.com | Save Money. Live Better."(resources/features/Login.feature:5)
-]]></failure>
-</testcase>
-<testcase classname="Walmart login feature" name="Negative login test with invalid email format and invalid password 4" time="0.000734">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.walmart.stepDef.Login.page_title_is(Login.java:27)&#13;&#10;&#9;at ✽.When page title is &quot;Walmart.com | Save Money. Live Better.&quot;(resources/features/Login.feature:5)&#13;&#10;"><![CDATA[Given user navigates to walmart application.................................passed
-When page title is "Walmart.com | Save Money. Live Better.".................failed
-Then user clicks on account.................................................skipped
-Then user clicks on sign in.................................................skipped
-Then user is landed to login page "Login"...................................skipped
-Then user enters username "xxxxx"...........................................skipped
-Then user enters password "xxxxxxxx"........................................skipped
-Then user clicks on login btn...............................................skipped
-Then user should see "Please enter a valid email address." in username field.skipped
-And use should see "" in password field.....................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at com.walmart.stepDef.Login.page_title_is(Login.java:27)
-	at ✽.When page title is "Walmart.com | Save Money. Live Better."(resources/features/Login.feature:5)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.walmart.stepDef.Login.user_should_see_in_username_field(Login.java:70)
+	at ✽.Then user should see "Email address is required." in username field(resources/features/Login.feature:12)
 ]]></failure>
 </testcase>
 </testsuite>

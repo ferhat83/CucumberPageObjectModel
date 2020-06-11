@@ -4,22 +4,21 @@ import org.junit.Assert;
 
 import com.walmart.pages.HomePage;
 import com.walmart.pages.LoginPage;
-import com.walmart.utils.SetUp;
+import com.walmart.utils.Generic;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class Login {
-
-	HomePage homePage;
-	LoginPage loginPage;
-	
+    Generic generic= new Generic();
+	HomePage homePage = new HomePage();
+	LoginPage loginPage= new LoginPage();
 
 	@Given("^user navigates to walmart application$")
 	public void user_navigates_to_walmart_application() throws Throwable {
-		//SetUp.init();
-		System.out.println("defind in befor method");
+		generic.navigateTo();
+		
 	}
 
 	@When("^page title is \"([^\"]*)\"$")
@@ -65,13 +64,19 @@ public class Login {
 
 	@Then("^user should see \"([^\"]*)\" in username field$")
 	public void user_should_see_in_username_field(String arg1) throws Throwable {
-		System.out.println("to be implimented");
+//		Assert.assertEquals(arg1, loginPage.getErrorMessage1());
+		System.out.println(arg1);
+		System.out.println(loginPage.checkPresence(arg1));
+		Assert.assertTrue(loginPage.checkPresence(arg1));
 
 	}
 
 	@Then("^use should see \"([^\"]*)\" in password field$")
 	public void use_should_see_in_password_field(String arg1) throws Throwable {
-		System.out.println("to be implimented");
+//		Assert.assertEquals(arg1, loginPage.getErrorMessage2());
+		System.out.println(arg1);
+		System.out.println(loginPage.checkPresence(arg1));
+		Assert.assertTrue(loginPage.checkPresence(arg1));
 	}
 
 }

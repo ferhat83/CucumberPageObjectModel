@@ -15,9 +15,9 @@ Scenario Outline: Negative login test with invalid email format and invalid pass
 	Examples: 
 		|username|password|message1                           |message2             |
 		|        |        |Email address is required.         |Password is required.|
-		|xxxxx   |        |Please enter a valid email address.|Password is required.|
-		|        |xxxxxxxx|Email address is required.         |                     |
-		|xxxxx   |xxxxxxxx|Please enter a valid email address.|                     |
+#		|xxxxx   |        |Please enter a valid email address.|Password is required.|
+#		|        |xxxxxxxx|Email address is required.         |                     |
+#		|xxxxx   |xxxxxxxx|Please enter a valid email address.|                     |
 		
 		
   
